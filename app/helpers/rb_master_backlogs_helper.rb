@@ -1,5 +1,5 @@
 module RbMasterBacklogsHelper
-  unloadable
+  # unloadable
   include Redmine::I18n
 
   def backlog_html_class(backlog)

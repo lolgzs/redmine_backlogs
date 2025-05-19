@@ -1,5 +1,5 @@
 module RbFormHelper
-  unloadable
+  # unloadable
 
   def rb_form_for(*args, &proc)
     form_string = form_for(*args, &proc)

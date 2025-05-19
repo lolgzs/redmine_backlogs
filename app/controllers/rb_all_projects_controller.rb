@@ -1,5 +1,5 @@
 class RbAllProjectsController < ApplicationController
-  unloadable
+  # unloadable
 
   before_action :authorize_global
 

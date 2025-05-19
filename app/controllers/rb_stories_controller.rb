@@ -3,7 +3,7 @@ require 'prawn'
 include RbCommonHelper
 
 class RbStoriesController < RbApplicationController
-  unloadable
+  # unloadable
   include BacklogsPrintableCards
 
   def index

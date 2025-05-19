@@ -1,7 +1,7 @@
 include RbCommonHelper
 
 class RbHooksRenderController < RbApplicationController
-  unloadable
+  # unloadable
 
   def view_issues_sidebar
     locals = {

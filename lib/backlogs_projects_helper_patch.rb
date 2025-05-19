@@ -15,6 +15,6 @@ module BacklogsProjectsHelperPatch
 end
 
 module ProjectsHelper
-  unloadable
+  # unloadable
   prepend BacklogsProjectsHelperPatch
 end

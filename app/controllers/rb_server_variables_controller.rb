@@ -1,5 +1,5 @@
 class RbServerVariablesController < RbApplicationController
-  unloadable
+  # unloadable
   #FIXME this effectively allows csrf attacks on /rb/server_variables.js FIXME
   skip_before_action :verify_authenticity_token, if: :js_request?
 

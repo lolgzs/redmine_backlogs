@@ -1,7 +1,7 @@
 require 'date'
 
 class RbSprint < Version
-  unloadable
+  # unloadable
 
   validate :start_and_end_dates
   validate :duration_3months

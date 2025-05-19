@@ -1,7 +1,7 @@
 include RbCommonHelper
 
 class RbTaskboardsController < RbApplicationController
-  unloadable
+  # unloadable
 
   def show
     stories = @sprint.stories

@@ -1,7 +1,7 @@
 require 'icalendar'
 
 class RbCalendarsController < RbApplicationController
-  unloadable
+  # unloadable
 
   case Backlogs.platform
     when :redmine

@@ -5,8 +5,8 @@ class RbSprintBurndown < ActiveRecord::Base
   self.table_name = 'rb_sprint_burndown'
   belongs_to :version
 
-  serialize :stories, Array
-  serialize :burndown, Hash
+  serialize :stories, type: Array
+  serialize :burndown, type: Hash
   after_initialize :init
 
   def direction

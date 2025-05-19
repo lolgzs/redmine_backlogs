@@ -4,7 +4,7 @@ class RbIssueHistory < ActiveRecord::Base
   self.table_name = 'rb_issue_history'
   belongs_to :issue
 
-  serialize :history, Array
+  serialize :history, type: Array
   after_save :touch_sprint
   after_initialize :init_history
   after_create :update_parent
